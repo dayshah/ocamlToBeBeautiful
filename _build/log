@@ -1,0 +1,5 @@
+# dune init project ocamlToBeBeautiful
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root: /Users/dhyey/ocamlToBeBeautiful
+# Auto-detected concurrency: 8
