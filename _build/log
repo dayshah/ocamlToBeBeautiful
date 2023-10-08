@@ -1,5 +1,114 @@
-# dune init project ocamlToBeBeautiful
+# dune build
 # OCAMLPARAM: unset
 # Shared cache: disabled
 # Workspace root: /Users/dhyey/ocamlToBeBeautiful
 # Auto-detected concurrency: 8
+$ /Users/dhyey/.opam/default/bin/ocamlc.opt -config > /var/folders/cv/q8z1fxgn68nbh_ktmyrmrfmw0000gn/T/dune_9da71c_output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; ocaml_bin = External "/Users/dhyey/.opam/default/bin"
+#  ; ocaml = Ok External "/Users/dhyey/.opam/default/bin/ocaml"
+#  ; ocamlc = External "/Users/dhyey/.opam/default/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/Users/dhyey/.opam/default/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/Users/dhyey/.opam/default/bin/ocamldep.opt"
+#  ; ocamlmklib = Ok External "/Users/dhyey/.opam/default/bin/ocamlmklib"
+#  ; installed_env =
+#      map
+#        { "INSIDE_DUNE" : "/Users/dhyey/ocamlToBeBeautiful/_build/default"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_paths =
+#      [ External "/Users/dhyey/.opam/default/lib/ocaml"
+#      ; External "/Users/dhyey/.opam/default/lib"
+#      ]
+#  ; ocaml_config =
+#      { version = "5.1.0"
+#      ; standard_library_default = "/Users/dhyey/.opam/default/lib/ocaml"
+#      ; standard_library = "/Users/dhyey/.opam/default/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "cc"
+#      ; ocamlc_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; bytecomp_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; native_c_libraries = [ "-lpthread" ]
+#      ; native_pack_linker = [ "ld"; "-r"; "-o" ]
+#      ; cc_profile = []
+#      ; architecture = "arm64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "cc"; "-c"; "-Wno-trigraphs" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "aarch64-apple-darwin22.5.0"
+#      ; target = "aarch64-apple-darwin22.5.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X033"
+#      ; cmi_magic_number = "Caml1999I033"
+#      ; cmo_magic_number = "Caml1999O033"
+#      ; cma_magic_number = "Caml1999A033"
+#      ; cmx_magic_number = "Caml1999Y033"
+#      ; cmxa_magic_number = "Caml1999Z033"
+#      ; ast_impl_magic_number = "Caml1999M033"
+#      ; ast_intf_magic_number = "Caml1999N033"
+#      ; cmxs_magic_number = "Caml1999D033"
+#      ; cmt_magic_number = "Caml1999T033"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  ; instrument_with = []
+#  }
+# Promoting "_build/default/ocamlToBeBeautiful.opam" to
+# "ocamlToBeBeautiful.opam"
+$ (cd _build/default && /Users/dhyey/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -bin-annot -I lib/.ocamlToBeBeautiful.objs/byte -no-alias-deps -opaque -o lib/.ocamlToBeBeautiful.objs/byte/ocamlToBeBeautiful.cmo -c -impl lib/ocamlToBeBeautiful.ml-gen)
+$ (cd _build/default && /Users/dhyey/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I test/.ocamlToBeBeautiful.eobjs/byte -no-alias-deps -opaque -o test/.ocamlToBeBeautiful.eobjs/byte/dune__exe__OcamlToBeBeautiful.cmi -c -intf test/ocamlToBeBeautiful.mli)
+$ (cd _build/default && /Users/dhyey/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o lib/ocamlToBeBeautiful.cma lib/.ocamlToBeBeautiful.objs/byte/ocamlToBeBeautiful.cmo)
+$ (cd _build/default && /Users/dhyey/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I bin/.main.eobjs/byte -I lib/.ocamlToBeBeautiful.objs/byte -no-alias-deps -opaque -o bin/.main.eobjs/byte/dune__exe__Main.cmi -c -intf bin/main.mli)
+$ (cd _build/default && /Users/dhyey/.opam/default/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I test/.ocamlToBeBeautiful.eobjs/byte -I test/.ocamlToBeBeautiful.eobjs/native -intf-suffix .ml -no-alias-deps -opaque -o test/.ocamlToBeBeautiful.eobjs/native/dune__exe__OcamlToBeBeautiful.cmx -c -impl test/ocamlToBeBeautiful.ml)
+$ (cd _build/default && /Users/dhyey/.opam/default/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -I lib/.ocamlToBeBeautiful.objs/byte -I lib/.ocamlToBeBeautiful.objs/native -intf-suffix .ml-gen -no-alias-deps -opaque -o lib/.ocamlToBeBeautiful.objs/native/ocamlToBeBeautiful.cmx -c -impl lib/ocamlToBeBeautiful.ml-gen)
+$ (cd _build/default && /Users/dhyey/.opam/default/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I bin/.main.eobjs/byte -I bin/.main.eobjs/native -I lib/.ocamlToBeBeautiful.objs/byte -I lib/.ocamlToBeBeautiful.objs/native -intf-suffix .ml -no-alias-deps -opaque -o bin/.main.eobjs/native/dune__exe__Main.cmx -c -impl bin/main.ml)
+$ (cd _build/default && /Users/dhyey/.opam/default/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o lib/ocamlToBeBeautiful.cmxa lib/.ocamlToBeBeautiful.objs/native/ocamlToBeBeautiful.cmx)
+$ (cd _build/default && /Users/dhyey/.opam/default/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o test/ocamlToBeBeautiful.exe test/.ocamlToBeBeautiful.eobjs/native/dune__exe__OcamlToBeBeautiful.cmx)
+$ (cd _build/default && /Users/dhyey/.opam/default/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -shared -linkall -I lib -o lib/ocamlToBeBeautiful.cmxs lib/ocamlToBeBeautiful.cmxa)
+$ (cd _build/default && /Users/dhyey/.opam/default/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o bin/main.exe lib/ocamlToBeBeautiful.cmxa bin/.main.eobjs/native/dune__exe__Main.cmx)
